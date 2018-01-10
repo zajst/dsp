@@ -13,8 +13,8 @@ Int16 right_output;
 #define SAMPLES_PER_SECOND 48000
 #define GAIN_IN_dB         0
 
-int tablicawe[1000];
-int tablicawy[1000];
+Iint16 tablicawe[1000];
+Int16 tablicawy[1000];
 
 // filtr niezbędny do odpalenia z biblioteki
 DATA Dorociak_Low_Pass_Filter_48kHz1[rozmiar] = {
