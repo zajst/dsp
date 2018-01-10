@@ -13,7 +13,7 @@ Int16 right_output;
 #define SAMPLES_PER_SECOND 48000
 #define GAIN_IN_dB         0
 
-Iint16 tablicawe[1000];
+Int16 tablicawe[1000];
 Int16 tablicawy[1000];
 
 // filtr niezbędny do odpalenia z biblioteki
